@@ -297,6 +297,7 @@ INSERT INTO public.moon VALUES (17, 'Oberon', 7, true, 761, NULL);
 INSERT INTO public.moon VALUES (18, 'Triton', 8, true, 1353, NULL);
 INSERT INTO public.moon VALUES (19, 'Nereid', 8, false, 170, NULL);
 INSERT INTO public.moon VALUES (20, 'Charon', 9, true, 606, NULL);
+INSERT INTO public.moon VALUES (23, 'Luna 3', 1, true, 1737, NULL);
 
 
 --
@@ -347,7 +348,7 @@ SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 6, true);
 -- Name: moon_moon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
+SELECT pg_catalog.setval('public.moon_moon_id_seq', 23, true);
 
 
 --
